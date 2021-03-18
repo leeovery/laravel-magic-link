@@ -1,4 +1,4 @@
-# Laravel Magic Link Auth
+# Laravel Magic Link Generator for quick auth
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/leeovery/magic-link-generator.svg?style=flat-square)](https://packagist.org/packages/leeovery/magic-link-generator)
 [![Build Status](https://img.shields.io/travis/leeovery/magic-link-generator/master.svg?style=flat-square)](https://travis-ci.org/leeovery/magic-link-generator)
