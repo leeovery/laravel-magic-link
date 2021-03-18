@@ -1,11 +1,11 @@
 <?php
 
-namespace Leeovery\MagicLinkGenerator;
+namespace Leeovery\MagicLink;
 
 use Illuminate\Contracts\Auth\Authenticatable as User;
 use Illuminate\Support\Facades\URL;
 
-class MagicLinkGenerator
+class MagicLink
 {
     public User $user;
 

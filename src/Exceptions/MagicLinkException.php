@@ -1,6 +1,6 @@
 <?php
 
-namespace Leeovery\MagicLinkGenerator\Exceptions;
+namespace Leeovery\MagicLink\Exceptions;
 
 use Symfony\Component\HttpKernel\Exception\HttpException;
 

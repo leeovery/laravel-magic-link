@@ -1,6 +1,6 @@
 <?php
 
-namespace Leeovery\MagicLinkGenerator;
+namespace Leeovery\MagicLink;
 
 use Carbon\Carbon;
 use Illuminate\Contracts\Auth\Authenticatable as User;

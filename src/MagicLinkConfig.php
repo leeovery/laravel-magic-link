@@ -1,6 +1,6 @@
 <?php /** @noinspection PhpUnused */
 
-namespace Leeovery\MagicLinkGenerator;
+namespace Leeovery\MagicLink;
 
 use Carbon\Carbon;
 

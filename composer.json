@@ -1,11 +1,12 @@
 {
-    "name": "leeovery/magic-link-generator",
-    "description": "Magic link generator for quick and safe auth",
+    "name": "leeovery/laravel-magic-link",
+    "description": "Magic link generator for quick and safe auth with Laravel",
     "keywords": [
         "leeovery",
-        "magic-link-generator"
+        "magic-link-generator",
+        "laravel-magic-link"
     ],
-    "homepage": "https://github.com/leeovery/magic-link-generator",
+    "homepage": "https://github.com/leeovery/laravel-magic-link",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -28,12 +29,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Leeovery\\MagicLinkGenerator\\": "src"
+            "Leeovery\\MagicLink\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Leeovery\\MagicLinkGenerator\\Tests\\": "tests"
+            "Leeovery\\MagicLink\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -46,10 +47,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Leeovery\\MagicLinkGenerator\\MagicLinkGeneratorServiceProvider"
+                "Leeovery\\MagicLink\\MagicLinkServiceProvider"
             ],
             "aliases": {
-                "MagicLinkGenerator": "Leeovery\\MagicLinkGenerator\\Facades\\MagicLinkGenerator"
+                "MagicLink": "Leeovery\\MagicLink\\Facades\\MagicLink"
             }
         }
     }
