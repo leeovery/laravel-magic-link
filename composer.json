@@ -1,0 +1,56 @@
+{
+    "name": "leeovery/magic-link-generator",
+    "description": "Magic link generator for quick and safe auth",
+    "keywords": [
+        "leeovery",
+        "magic-link-generator"
+    ],
+    "homepage": "https://github.com/leeovery/magic-link-generator",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Lee Overy",
+            "email": "me@leeovery.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^8.0",
+        "spatie/laravel-package-tools": "^1.4.3",
+        "illuminate/contracts": "^8.0"
+    },
+    "require-dev": {
+      "orchestra/testbench": "^6.13",
+      "phpunit/phpunit": "^9.3",
+      "spatie/laravel-ray": "^1.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Leeovery\\MagicLinkGenerator\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Leeovery\\MagicLinkGenerator\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Leeovery\\MagicLinkGenerator\\MagicLinkGeneratorServiceProvider"
+            ],
+            "aliases": {
+                "MagicLinkGenerator": "Leeovery\\MagicLinkGenerator\\Facades\\MagicLinkGenerator"
+            }
+        }
+    }
+}
