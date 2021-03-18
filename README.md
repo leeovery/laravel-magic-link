@@ -7,7 +7,7 @@
 
 With this package you can generate and handle magic links to authenticate your users.
 
-More docs coming soon.
+More docs coming soon :)
 
 ## Installation
 
