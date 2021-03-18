@@ -1,9 +1,9 @@
 <?php
 
-namespace Leeovery\MagicLinkGenerator\Actions;
+namespace Leeovery\MagicLink\Actions;
 
 use Illuminate\Support\Facades\Auth;
-use Leeovery\MagicLinkGenerator\MagicLinkManager;
+use Leeovery\MagicLink\MagicLinkManager;
 use Illuminate\Contracts\Auth\Authenticatable as User;
 
 class LoginAction

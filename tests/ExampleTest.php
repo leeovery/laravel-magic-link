@@ -1,16 +1,16 @@
 <?php
 
-namespace Leeovery\MagicLinkGenerator\Tests;
+namespace Leeovery\MagicLink\Tests;
 
 use Orchestra\Testbench\TestCase;
-use Leeovery\MagicLinkGenerator\MagicLinkGeneratorServiceProvider;
+use Leeovery\MagicLink\MagicLinkServiceProvider;
 
 class ExampleTest extends TestCase
 {
 
     protected function getPackageProviders($app)
     {
-        return [MagicLinkGeneratorServiceProvider::class];
+        return [MagicLinkServiceProvider::class];
     }
     
     /** @test */

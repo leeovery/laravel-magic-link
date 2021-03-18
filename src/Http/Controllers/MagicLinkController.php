@@ -1,13 +1,13 @@
 <?php
 
-namespace Leeovery\MagicLinkGenerator\Http\Controllers;
+namespace Leeovery\MagicLink\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Leeovery\MagicLinkGenerator\Actions\LoginAction;
-use Leeovery\MagicLinkGenerator\Exceptions\MagicLinkException;
-use Leeovery\MagicLinkGenerator\MagicLinkManager;
+use Leeovery\MagicLink\Actions\LoginAction;
+use Leeovery\MagicLink\Exceptions\MagicLinkException;
+use Leeovery\MagicLink\MagicLinkManager;
 
-class MagicLinkGeneratorController
+class MagicLinkController
 {
     public function __invoke(
         Request $request,
