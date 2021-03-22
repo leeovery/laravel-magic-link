@@ -14,7 +14,7 @@ More docs coming soon :)
 You can install the package via composer:
 
 ```bash
-composer require leeovery/magic-link-generator
+composer require leeovery/laravel-magic-link
 ```
 
 ## Usage
